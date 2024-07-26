@@ -9,11 +9,11 @@ Make sure the target runtime is *win-x64* otherwise the publish will fail
   
 Run the following code to create service  
 ```bat
-sc create {ServiceName} binpath= "{exepath}"
+sc create {ServiceName} binpath= "{exepath}" start= auto
 ```
 Note: ServiceName must be the same as the value in Program.cs  
-  
-![image](https://github.com/user-attachments/assets/e5a40ff5-fcf5-4d40-a99c-9563a85d0613)  
+![image](https://github.com/user-attachments/assets/99ef6505-b699-461c-833c-82601406da5a)
+
 
 then you can start your service in taskmgr  
   
