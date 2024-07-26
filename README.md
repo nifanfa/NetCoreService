@@ -11,9 +11,14 @@ Run the following code to create service
 ```bat
 sc create {ServiceName} binpath= "{exepath}"
 ```
+Note: ServiceName must be the same as the value in Program.cs  
   
 ![image](https://github.com/user-attachments/assets/e5a40ff5-fcf5-4d40-a99c-9563a85d0613)  
 
-then you can start your service in taskmgr
+then you can start your service in taskmgr  
+  
+this is what happens when you start the service  
+![image](https://github.com/user-attachments/assets/8b347f88-43b3-4e25-b5c9-1c98c217d735)
+
 
 
